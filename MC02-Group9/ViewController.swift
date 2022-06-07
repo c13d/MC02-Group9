@@ -24,6 +24,8 @@ class ViewController: UIViewController, FSCalendarDelegate {
         formatter.dateFormat = "MM-dd-YYYY"
         let dateSelected = formatter.string(from: date)
         print("\(dateSelected)")
+        
+        print("NTAR APUS AJA")
     }
 
 
